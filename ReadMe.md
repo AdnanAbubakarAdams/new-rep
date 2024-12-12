@@ -1,13 +1,15 @@
-show all docker containers
+## Docker Commands
 
-```docker ps -a```
+**show all docker containers**
 
-stop a container from running
+`docker ps -a`
 
-```docker stop "container-Id" or first 3 chars of container-id```
+**stop a container from running**
 
-remove containers
+`docker stop "container-Id" or first 3 chars of container-id`
 
-```docker container prune```
+**remove containers**
 
-```docker rm <container name> or <container id> or <first 3 chars of container id>```
+`docker container prune`
+
+`docker rm <container name> or <container id> or <first 3 chars of container id>`
